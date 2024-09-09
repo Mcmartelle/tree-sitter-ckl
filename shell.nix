@@ -5,6 +5,7 @@ pkgs.mkShell {
   packages = [
     pkgs.tree-sitter
     pkgs.nodejs_21
+    pkgs.emscripten
     # pkgs.gccgo
   ];
 }
