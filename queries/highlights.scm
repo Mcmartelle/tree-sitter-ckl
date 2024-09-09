@@ -1,3 +1,2 @@
 "```" @punctuation.bracket
-(clipboard) @keyword
-(comment) @comment
+(clipboard) @string.special
