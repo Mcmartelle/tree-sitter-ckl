@@ -29,6 +29,11 @@ name = "ckl"
 source = {path = "~/.config/helix/runtime/grammars/ckl.so"}
 ```
 
+## and set HELIX_RUNTIME in config.fish
+```fish
+export HELIX_RUNTIME='~/.config/helix/runtime'
+```
+
 use `hx --health` to see which languages have highlighting support, etc.
 
 Within helix run `:log-open` to see errors.
